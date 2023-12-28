@@ -24,4 +24,13 @@ const Card = ({restaurant}) => {
     )
 }
 
+export const PureVegCard = (Card) => {
+    return (props) => {
+      return <div> 
+      <span className="relative bg-green-600 text-white p-2 rounded top-12 -left-2 text-lg font-bold">Pure Veg</span>
+      <Card {...props} />   
+      </div>
+    }
+  }
+
 export default Card;

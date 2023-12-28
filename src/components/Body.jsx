@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Card from "./Card";
+import Card, { PureVegCard } from "./Card";
 import ShimmerCard from "./ShimmerCard";
 import { useState } from "react";
 import useOnlineStatus from "../utils/useOnlineStatus";
@@ -16,8 +16,10 @@ const Body = () => {
 
   const lists = useResList();
 
-  const {resList, localList, setLocalList} = lists;
+  const PureVegResto = PureVegCard(Card);
 
+  const {resList, localList, setLocalList} = lists;
+console.log(localList);
   const handleChange = (e) => {
     setSearch(e.target.value);
   };
@@ -78,7 +80,10 @@ const Body = () => {
       ) : (
         <div className="flex justify-between flex-wrap gap-8">
           {localList.map((restaurant) => (
-            <Link key={restaurant?.info?.id} to={`/restaurants/${restaurant?.info?.id}`} className="w-80"><Card  restaurant={restaurant?.info} /></Link>
+            <Link key={restaurant?.info?.id} to={`/restaurants/${restaurant?.info?.id}`} className="w-80">
+              {restaurant?.info?.veg ? <PureVegResto restaurant={restaurant?.info} /> : <Card  restaurant={restaurant?.info} />}
+              
+            </Link>
             
           ))}
         </div>
