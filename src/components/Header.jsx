@@ -15,7 +15,7 @@ const Header = () => {
     }
 
     return (
-        <div className='flex justify-between px-24 py-1 items-center border border-solid border-black shadow-lg'>
+        <div className='flex justify-between px-24 py-1 items-center border border-solid border-gray-200 shadow-lg'>
             <div>
                 <img className="w-20" src={LOGO_URL} alt="logo" />
             </div>

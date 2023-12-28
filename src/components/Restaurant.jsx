@@ -28,33 +28,35 @@ const Restaurant = () => {
   // console.log(itemCards);
 
   return (
-    <div className="resto-details">
-      <div className="detail-box">
-        <div className="resto-info">
-          <h2>{name}</h2>
-          <h4>{cuisines.join(", ")}</h4>
-          <h4>{locality}</h4>
+    <div className="px-[7rem]  flex justify-center">
+      <div className="border w-[40vw] border-gray-200 bg-slate-100 h-max my-12 flex justify-center flex-col p-5  ">
+
+      <div className="flex justify-between border-b-2 border-dotted border-gray-400 py-4">
+        <div className="flex flex-col gap-2">
+          <h2 className="font-bold text-2xl">{name}</h2>
+          <h4 className="text-gray-500">{cuisines.join(", ")}</h4>
+          <h4 className="text-gray-500">{locality}</h4>
         </div>
 
-        <div className="resto-ratings">
-          <h4 style={{ color: "green", fontWeight: "bold" }}>{avgRating}</h4>
-          <h4 style={{ color: "gray", fontWeight: "100" }}>
+        <div className="border border-gray-300 border-solid flex flex-col px-2 h-max py-1 justify-center  ">
+          <h4 className="text-green-600 font-bold border-b border-gray-500 border-dotted">{avgRating}</h4>
+          <h4 className="text-gray-500">
             {totalRatingsString}
           </h4>
         </div>
       </div>
 
-      <div className="second-box">
+      <div className="flex gap-12 py-6 font-bold text-md border-b-2 border-dotted border-gray-400">
         <h4>{sla.slaString}</h4>
         <h4>{costForTwoMessage}</h4>
       </div>
 
-      <div className="menu">
-        <h3>Recommanded</h3>
-        <ul>
+      <div className="py-5">
+        <h3 className="font-bold text-lg mb-3">Recommanded</h3>
+        <ul className="flex flex-col gap-3">
           {itemCards.map((item, i) => {
             return (
-              <li key={i}>
+              <li key={i} className="flex justify-between">
                 <span>{item?.card?.info?.name}</span>{" "}
                 <span>Rs. {item?.card?.info?.price / 100}</span>
               </li>
@@ -62,6 +64,7 @@ const Restaurant = () => {
           })}
         </ul>
       </div>
+    </div>
     </div>
   );
 };
