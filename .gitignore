@@ -1,0 +1,49 @@
+# Dependency directories
+node_modules/
+
+# Build artifacts
+dist/
+build/
+out/
+*.log
+
+# Environment files
+.env
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# User-specific files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.swp
+*~
+
+# Jest coverage
+coverage/
+
+# Parcel cache
+.parcel-cache/
+dist/
+.cache/
+.parcel-cache/data.mdb
+.parcel-cache/data.mdb
+# Visual Studio Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
