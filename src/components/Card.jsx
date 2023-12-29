@@ -26,8 +26,8 @@ const Card = ({restaurant}) => {
 
 export const PureVegCard = (Card) => {
     return (props) => {
-      return <div> 
-      <span className="relative bg-green-600 text-white p-2 rounded top-12 -left-2 text-lg font-bold">Pure Veg</span>
+      return <div className="relative"> 
+      <span className="absolute bg-green-600 text-white p-2 rounded top-2 -left-2 text-lg font-bold">Pure Veg</span>
       <Card {...props} />   
       </div>
     }

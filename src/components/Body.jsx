@@ -6,20 +6,18 @@ import useOnlineStatus from "../utils/useOnlineStatus";
 import useResList from "../utils/useResList";
 
 const Body = () => {
-
   const [search, setSearch] = useState("");
 
   const [isFiltered, setIsFiltered] = useState(false);
 
-  // console.log("this is resList before useEffect" + resList);
   const isOnline = useOnlineStatus();
 
   const lists = useResList();
 
   const PureVegResto = PureVegCard(Card);
 
-  const {resList, localList, setLocalList} = lists;
-console.log(localList);
+  const { resList, localList, setLocalList } = lists;
+  console.log(localList);
   const handleChange = (e) => {
     setSearch(e.target.value);
   };
@@ -37,8 +35,11 @@ console.log(localList);
     setIsFiltered(!isFiltered);
   };
 
-
-  return (isOnline === false ? (<h1 style={{margin: "25vh 25vw"}}>Looks like you are offline! Check your internet connection...</h1>) : (
+  return isOnline === false ? (
+    <h1 style={{ margin: "25vh 25vw" }}>
+      Looks like you are offline! Check your internet connection...
+    </h1>
+  ) : (
     <div className="px-[7rem]">
       <div className="flex gap-8 items-center py-8">
         <form onSubmit={handleSubmit} className="flex items-end mb-0 gap-1">
@@ -50,7 +51,12 @@ console.log(localList);
             onChange={handleChange}
             className="border border-solid border-black px-2 py-1 rounded"
           />
-          <button type="submit" className="border border-solid border-blue-500 bg-blue-500 text-white px-2 py-1 rounded">Search</button>
+          <button
+            type="submit"
+            className="border border-solid border-blue-500 bg-blue-500 text-white px-2 py-1 rounded"
+          >
+            Search
+          </button>
         </form>
         {isFiltered ? (
           <button
@@ -80,16 +86,22 @@ console.log(localList);
       ) : (
         <div className="flex justify-between flex-wrap gap-8">
           {localList.map((restaurant) => (
-            <Link key={restaurant?.info?.id} to={`/restaurants/${restaurant?.info?.id}`} className="w-80">
-              {restaurant?.info?.veg ? <PureVegResto restaurant={restaurant?.info} /> : <Card  restaurant={restaurant?.info} />}
-              
+            <Link
+              key={restaurant?.info?.id}
+              to={`/restaurants/${restaurant?.info?.id}`}
+              className="w-80"
+            >
+              {restaurant?.info?.veg ? (
+                <PureVegResto restaurant={restaurant?.info} />
+              ) : (
+                <Card restaurant={restaurant?.info} />
+              )}
             </Link>
-            
           ))}
         </div>
       )}
     </div>
-  ))
+  );
 };
 
 export default Body;
