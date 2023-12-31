@@ -1,27 +1,25 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Header from './components/Header';
 import Body from './components/Body';
-import { useState } from 'react';
 import { createBrowserRouter, RouterProvider, Outlet} from 'react-router-dom';
 import About from './components/About';
 import Contact from './components/Contact';
 import Error from './components/Error';
 import Restaurant from './components/Restaurant';
-
-
+import { Provider } from 'react-redux';
+import cartStore from './utils/cartStore';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
 const App = () => {
-    
-
     return (
+        <Provider store={cartStore}>
         <div>
             <Header />
             <Outlet />
         </div>
+        </Provider>
     );
 };
 
