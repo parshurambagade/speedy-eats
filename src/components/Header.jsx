@@ -3,12 +3,15 @@ import { LOGO_URL } from '../utils/constants';
 import { useState } from 'react';
 import { Link    } from 'react-router-dom';
 import useOnlineStatus from '../utils/useOnlineStatus';
+import { useSelector } from 'react-redux';
 
 const Header = () => {
 
     const [isLogin, setIsLogin] = useState(false);
 
     const isOnline = useOnlineStatus();
+
+    const cartItems = useSelector(state => state.cart.value);
 
     const handleClick = () => {
         setIsLogin(!isLogin);
@@ -23,11 +26,11 @@ const Header = () => {
                 <ul className='flex gap-12 '>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
-                    <li><Link to="/cart">Cart</Link></li>
+                    <li><Link to="/cart">Cart ({cartItems.length})</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>
-                
+                    
             <div className="flex gap-6">
             <span className='px-2 py-1 border border-solid border-gray-600 rounded-md'>Online Status: {isOnline === true ? "🟢" : "🔴"}</span>
 
