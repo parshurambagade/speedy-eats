@@ -69,13 +69,9 @@ const Restaurant = () => {
 
         {itemCategories.map((category, index) => (
           <ItemsCategory
-<<<<<<< HEAD
-            setShowIndex={() => setShowIndex(showIndex === index ? null : index)}
-=======
             setShowIndex={() => {
               showIndex == index ? setShowIndex(null) : setShowIndex(index)
             }}
->>>>>>> redux
             showItems={showIndex === index}
             category={category}
             key={index}
