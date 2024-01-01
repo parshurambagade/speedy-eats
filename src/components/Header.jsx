@@ -4,7 +4,10 @@ import { useState, useContext } from 'react';
 import { Link} from 'react-router-dom';
 import useOnlineStatus from '../utils/useOnlineStatus';
 import { useSelector } from 'react-redux';
+<<<<<<< HEAD
 
+=======
+>>>>>>> redux
 
 const Header = () => {
 
@@ -12,9 +15,13 @@ const Header = () => {
 
     const isOnline = useOnlineStatus();
 
+<<<<<<< HEAD
     const cart = useSelector((state) => state.cart.value);
 
     console.log(cart);
+=======
+    const cartItems = useSelector(state => state.cart.value);
+>>>>>>> redux
 
     const handleClick = () => {
         setIsLogin(!isLogin);
@@ -30,11 +37,15 @@ const Header = () => {
                 <ul className='flex gap-12 '>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
+<<<<<<< HEAD
                     <li><Link to="/cart">Cart ({cart.length})</Link></li>
+=======
+                    <li><Link to="/cart">Cart ({cartItems.length})</Link></li>
+>>>>>>> redux
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>
-                
+                    
             <div className="flex gap-6">
             <span className='px-2 py-1 border border-solid border-gray-600 rounded-md'>Online Status: {isOnline === true ? "🟢" : "🔴"}</span>
 

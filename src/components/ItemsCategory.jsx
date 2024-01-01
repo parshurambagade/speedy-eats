@@ -1,7 +1,6 @@
 
 import ItemsList from "./ItemsList";
 
-
 const ItemsCategory = ({category, setShowIndex, showItems}) => {
 
 
