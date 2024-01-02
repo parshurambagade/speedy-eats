@@ -84,7 +84,7 @@ const Body = () => {
       {!resList.length ? (
         <ShimmerCard />
       ) : (
-        <div className="flex justify-between flex-wrap gap-8">
+        <div className="flex justify-between flex-wrap gap-8 ">
           {localList.map((restaurant) => (
             <Link
               key={restaurant?.info?.id}
