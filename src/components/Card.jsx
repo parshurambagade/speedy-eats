@@ -14,9 +14,9 @@ const Card = ({restaurant}) => {
 
              <div className="px-4 py-2 flex flex-col gap-2">
                 <h3 className="text-xl font-bold">{name}</h3>
-                <h4 className="cuisines">{cuisines.join(', ')}</h4>
+                <h4 className="cuisines">{Array.isArray(cuisines) ? cuisines.join(', ') : cuisines}</h4>
                 <h4 className="cost">{costForTwo}</h4>
-                <h4 className="delivery-time">{sla.slaString}</h4>
+                <h4 className="delivery-time">{sla?.slaString}</h4>
                 <h4 className="avg-rating">{avgRating}</h4> 
                 <h4 className="area">{area}</h4> 
              </div>

@@ -17,7 +17,7 @@ const Body = () => {
   const PureVegResto = PureVegCard(Card);
 
   const { resList, localList, setLocalList } = lists;
-  // console.log(localList);
+  console.log(localList);
   const handleChange = (e) => {
     setSearch(e.target.value);
   };
@@ -29,6 +29,7 @@ const Body = () => {
     );
 
     setLocalList(filteredList);
+    
   };
 
   const filterHandleClick = () => {
