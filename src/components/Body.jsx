@@ -45,6 +45,7 @@ const Body = () => {
       <div className="flex gap-8 items-center py-8">
         <form onSubmit={handleSubmit} className="flex items-end mb-0 gap-1">
           <input
+          data-testid="search"
             type="text"
             name="search"
             placeholder="Search..."
@@ -82,22 +83,27 @@ const Body = () => {
         )}
       </div>
 
-      {!resList.length ? (
+      {resList?.length === 0 ? (
         <ShimmerCard />
       ) : (
         <div className="flex justify-between flex-wrap gap-8 ">
           {localList.map((restaurant) => (
+          <div data-testid="res-card">
             <Link
               key={restaurant?.info?.id}
               to={`/restaurants/${restaurant?.info?.id}`}
               className="w-80"
             >
+              
               {restaurant?.info?.veg ? (
                 <PureVegResto restaurant={restaurant?.info} />
               ) : (
                 <Card restaurant={restaurant?.info} />
               )}
+             
             </Link>
+            
+          </div>
           ))}
         </div>
       )}
