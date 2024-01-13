@@ -13,7 +13,7 @@ const ItemsCategory = ({category, setShowIndex, showItems}) => {
     
   return (
     <div
-      className="pt-5 pb-0 border-2 shadow-lg bg-slate-50 border-gray-200 mt-2 px-4 "
+      className="pt-5 pb-0 border-2 shadow-lg bg-blue-50 border-slate-3 00 mt-2 px-4 "
       key={category.card.card.title}
     >
       <div className="flex justify-between pr-8 mb-4 cursor-pointer" onClick={handleClick}>

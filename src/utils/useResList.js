@@ -5,7 +5,7 @@ import { RES_LIST } from "../utils/constants";
 const useResList = () => {
     const [resList, setResList] = useState([]);
 
-    const [localList, setLocalList] = useState([]);
+    // const [localList, setLocalList] = useState([]);
 
     useEffect(() => {
         fetchResList();
@@ -17,9 +17,9 @@ const useResList = () => {
 
         setResList(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
 
-        setLocalList(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+        // console.log(json.data.cards[5]);       
     }
-  return {resList, setResList, localList, setLocalList};
+  return {resList, setResList};
 }
 
 export default useResList

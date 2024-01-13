@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Card, { PureVegCard } from "./Card";
 import ShimmerCard from "./ShimmerCard";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import useResList from "../utils/useResList";
 
@@ -10,26 +10,34 @@ const Body = () => {
 
   const [isFiltered, setIsFiltered] = useState(false);
 
+  const [localList, setLocalList] = useState([]);
+
   const isOnline = useOnlineStatus();
 
-  const lists = useResList();
-
   const PureVegResto = PureVegCard(Card);
+  
+  
+  
+  const lists = useResList();
+  const resList = lists.resList; 
 
-  const { resList, localList, setLocalList } = lists;
-  console.log(localList);
+  useEffect(() => {
+  console.log(lists)
+    setLocalList(resList);  
+  }, [resList])
+
+  
   const handleChange = (e) => {
     setSearch(e.target.value);
   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const filteredList = resList.filter((res) =>
+    const searchedData = resList.filter((res) =>
       res?.info?.name.toLowerCase().includes(search.toLowerCase())
     );
 
-    setLocalList(filteredList);
-    
+    setLocalList(searchedData);
   };
 
   const filterHandleClick = () => {
@@ -41,7 +49,7 @@ const Body = () => {
       Looks like you are offline! Check your internet connection...
     </h1>
   ) : (
-    <div className="px-[7rem]">
+    <div className="px-[7rem] pb-20">
       <div className="flex gap-8 items-center py-8">
         <form onSubmit={handleSubmit} className="flex items-end mb-0 gap-1">
           <input
@@ -51,7 +59,7 @@ const Body = () => {
             placeholder="Search..."
             value={search}
             onChange={handleChange}
-            className="border border-solid border-black px-2 py-1 rounded"
+            className="border border-solid border-slate-400 px-2 py-1 rounded"
           />
           <button
             type="submit"
@@ -83,14 +91,13 @@ const Body = () => {
         )}
       </div>
 
-      {resList?.length === 0 ? (
+      {resList.length === 0 ? (
         <ShimmerCard />
       ) : (
-        <div className="flex justify-between flex-wrap gap-8 ">
+        <div className={`flex justify-between flex-wrap gap-8`}>
           {localList.map((restaurant) => (
-          <div data-testid="res-card">
+          <div data-testid="res-card" key={restaurant?.info?.id} className="flex">  
             <Link
-              key={restaurant?.info?.id}
               to={`/restaurants/${restaurant?.info?.id}`}
               className="w-80"
             >

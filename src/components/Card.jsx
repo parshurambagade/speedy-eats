@@ -1,4 +1,5 @@
 import { RESTO_IMG } from "../utils/constants";
+import { FaStar } from "react-icons/fa";
 
 const Card = ({restaurant}) => {
     
@@ -8,7 +9,7 @@ const Card = ({restaurant}) => {
     
    
     return (
-        <div className="flex flex-col border border-solid border-gray-300 rounded-lg shadow-lg hover:shadow-2xl bg-slate-100">
+        <div className="flex flex-col border border-solid border-gray-300 rounded-lg shadow-lg hover:shadow-2xl transition duration-300 bg-blue-50">
     
              <img src={imgSrc} alt="resto img" className="h-60 rounded-t-lg"/>
 
@@ -17,7 +18,7 @@ const Card = ({restaurant}) => {
                 <h4 className="cuisines">{Array.isArray(cuisines) ? cuisines.join(', ') : cuisines}</h4>
                 <h4 className="cost">{costForTwo}</h4>
                 <h4 className="delivery-time">{sla?.slaString}</h4>
-                <h4 className="avg-rating">{avgRating}</h4> 
+                <h4 className="avg-rating flex gap-1 items-center text-green-700  "><FaStar /><span className="text-black font-bold">{avgRating}</span></h4> 
                 <h4 className="area">{area}</h4> 
              </div>
         </div>

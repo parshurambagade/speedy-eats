@@ -1,4 +1,4 @@
-import ShimmerCard from "./ShimmerCard";
+import ShimmerResMenuCard from "./ShimmerResMenuCard.jsx";
 import { useParams } from "react-router-dom";
 import useResInfo from "../utils/useResInfo";
 import ItemsCategory from "./ItemsCategory";
@@ -11,7 +11,7 @@ const Restaurant = () => {
 
   const resInfo = useResInfo(resId);
 
-  if (resInfo === null) return <ShimmerCard />;
+  if (resInfo === null) return <ShimmerResMenuCard />;
 
   const {
     name,
@@ -31,8 +31,8 @@ const Restaurant = () => {
     );
 
   return (
-    <div className="px-[7rem] flex justify-center">
-      <div className=" w-[40vw] border border-gray-200 shadow-lg h-max my-12 flex justify-center flex-col p-5  ">
+    <div className="px-[7rem] flex justify-center ">
+      <div className=" w-[40vw] border border-gray-200 shadow-lg h-max my-12 flex justify-center flex-col p-5 bg-slate-100   ">
         <div className="flex justify-between border-b-2 border-dotted border-gray-400 p-4">
           <div className="flex flex-col gap-2">
             <h2 className="font-bold text-2xl">{name}</h2>
