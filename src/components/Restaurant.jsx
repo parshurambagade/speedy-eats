@@ -28,7 +28,7 @@ const Restaurant = () => {
       (element) =>
         element?.card?.card?.["@type"] ==
         "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
-    );
+    );  
 
   return (
     <div className="px-[7rem] flex justify-center ">
