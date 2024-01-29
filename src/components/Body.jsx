@@ -82,7 +82,7 @@ const Body = () => {
           <button
             className="border border-solid border-black bg-gray-500 px-2 py-1 text-white rounded"
             onClick={() => {
-              setLocalList(resList.filter((res) => res?.info?.avgRating > 4));
+              setLocalList(resList.filter((res) => res?.info?.avgRating >= 4.5));
               filterHandleClick();
             }}
           >
