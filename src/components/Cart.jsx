@@ -13,7 +13,7 @@ const Cart = () => {
     }
 
   return ( 
-    <div className='w-4/12 mx-auto my-5'>
+    <div className='w-4/12 mx-auto my-12'>
         <h1 className='font-bold text-2xl my-4 text-center'>CART</h1>
         <div>
             {cartItems.map(item => <ItemsList item={item} key={item?.card?.info?.id} />)}

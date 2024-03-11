@@ -20,7 +20,7 @@ const App = () => {
     
     return (
         <Provider store={appStore}>
-        <div>
+        <div className='w-screen overflow-hidden'>
             <Header />
             <Outlet />
         </div>

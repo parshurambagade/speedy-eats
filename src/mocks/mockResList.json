@@ -1,652 +1,3601 @@
-[
-    {
-        "info": {
-            "id": "456986",
-            "name": "Domino's Pizza",
-            "cloudinaryImageId": "clcpnrfs8dz1xcrlbhwr",
-            "locality": "Somwar Peth",
-            "areaName": "Rasta Peth",
-            "costForTwo": "₹400 for two",
-            "cuisines": [
-                "Pizzas",
-                "Italian",
-                "Pastas",
-                "Desserts"
-            ],
-            "avgRating": 4.1,
-            "parentId": "2456",
-            "avgRatingString": "4.1",
-            "totalRatingsString": "500+",
-            "sla": {
-                "deliveryTime": 25,
-                "serviceability": "SERVICEABLE",
-                "slaString": "25 mins",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-01-04 23:59:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
+
+{
+    "data": {
+      "statusMessage": "done successfully",
+      "pageOffset": {
+        "nextOffset": "COVCELQ4KICQhLby0a3XJjCnEw==",
+        "widgetOffset": {
+          "NewListingView_category_bar_chicletranking_TwoRows": "",
+          "NewListingView_category_bar_chicletranking_TwoRows_Rendition": "",
+          "Restaurant_Group_WebView_SEO_PB_Theme": "",
+          "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo": "10",
+          "inlineFacetFilter": "",
+          "restaurantCountWidget": ""
+        }
+      },
+      "cards":{
+
+        "mumbai": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+              "layout": {
+                "columns": 4
+              },
+              "id": "restaurant_grid_listing",
+              "gridElements": {
+                "infoWithStyle": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.FavouriteRestaurantInfoWithStyle",
+                  "restaurants": [
+                    {
+                      "info": {
+                        "id": "106763",
+                        "name": "Rangoon Zaika",
+                        "cloudinaryImageId": "o5bbufmcjoqdfvtm7r1n",
+                        "locality": "Kurla East",
+                        "areaName": "Kurla West",
+                        "costForTwo": "₹400 for two",
+                        "cuisines": [
+                          "Indian",
+                          "Chinese"
+                        ],
+                        "avgRating": 3.9,
+                        "parentId": "166932",
+                        "avgRatingString": "3.9",
+                        "totalRatingsString": "5K+",
+                        "sla": {
+                          "deliveryTime": 22,
+                          "lastMileTravel": 0.3,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "0.3 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 05:30:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "20% OFF",
+                          "subHeader": "UPTO ₹50"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-c45798c6-9480-4be0-b854-57ba900c1044"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/rangoon-zaika-kurla-east-kurla-west-mumbai-106763",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "372200",
+                        "name": "New Lajawaab Seekh Corner",
+                        "cloudinaryImageId": "wtjwh915fnytypbywvcs",
+                        "locality": "Kurla",
+                        "areaName": "Bhd Kurla Weight Bridge",
+                        "costForTwo": "₹200 for two",
+                        "cuisines": [
+                          "Indian"
+                        ],
+                        "avgRating": 4.2,
+                        "parentId": "147071",
+                        "avgRatingString": "4.2",
+                        "totalRatingsString": "1K+",
+                        "sla": {
+                          "deliveryTime": 18,
+                          "lastMileTravel": 0.7,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "15-20 mins",
+                          "lastMileTravelString": "0.7 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 04:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "₹100 OFF",
+                          "subHeader": "ABOVE ₹599",
+                          "discountTag": "FLAT DEAL"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-c45798c6-9480-4be0-b854-57ba900c1044"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/new-lajawaab-seekh-corner-kurla-bhd-kurla-weight-bridge-mumbai-372200",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "111518",
+                        "name": "Kurla Juicy Hut",
+                        "cloudinaryImageId": "s6fhwzl0tss0vgrqvcid",
+                        "locality": "Kurla",
+                        "areaName": "Kurla West",
+                        "costForTwo": "₹300 for two",
+                        "cuisines": [
+                          "Beverages",
+                          "Desserts"
+                        ],
+                        "avgRating": 4.2,
+                        "parentId": "121989",
+                        "avgRatingString": "4.2",
+                        "totalRatingsString": "5K+",
+                        "sla": {
+                          "deliveryTime": 20,
+                          "lastMileTravel": 0.3,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "0.3 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 05:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "10% OFF",
+                          "subHeader": "ABOVE ₹700",
+                          "discountTag": "FLAT DEAL"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-c45798c6-9480-4be0-b854-57ba900c1044"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/kurla-juicy-hut-kurla-kurla-west-mumbai-111518",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "303850",
+                        "name": "Janata Tawa And Grill",
+                        "cloudinaryImageId": "zrusx2rcjtsxpksm4lne",
+                        "locality": "Kurla West",
+                        "areaName": "Kurla West",
+                        "costForTwo": "₹500 for two",
+                        "cuisines": [
+                          "Indian",
+                          "Chinese",
+                          "Tandoor"
+                        ],
+                        "avgRating": 4.4,
+                        "parentId": "109562",
+                        "avgRatingString": "4.4",
+                        "totalRatingsString": "1K+",
+                        "sla": {
+                          "deliveryTime": 22,
+                          "lastMileTravel": 0.3,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "0.3 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 04:30:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "10% OFF",
+                          "subHeader": "UPTO ₹40"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-c45798c6-9480-4be0-b854-57ba900c1044"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/janata-tawa-and-grill-kurla-west-mumbai-303850",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "6663",
+                        "name": "Mughal Dhaba",
+                        "cloudinaryImageId": "df600a304a4c328795e659b072d93208",
+                        "locality": "LBS Marg, Kurla West",
+                        "areaName": "Kurla West",
+                        "costForTwo": "₹500 for two",
+                        "cuisines": [
+                          "Mughlai",
+                          "North Indian",
+                          "Chinese"
+                        ],
+                        "avgRating": 4.1,
+                        "parentId": "140929",
+                        "avgRatingString": "4.1",
+                        "totalRatingsString": "1K+",
+                        "sla": {
+                          "deliveryTime": 22,
+                          "lastMileTravel": 0.3,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "0.3 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 04:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "40% OFF",
+                          "subHeader": "UPTO ₹75"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-c45798c6-9480-4be0-b854-57ba900c1044"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/mughal-dhaba-lbs-marg-kurla-west-mumbai-6663",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "355806",
+                        "name": "Baba Falooda (Kurla)",
+                        "cloudinaryImageId": "ys88tnnklqgfhzsftmqq",
+                        "locality": "Powai",
+                        "areaName": "Kurla",
+                        "costForTwo": "₹200 for two",
+                        "cuisines": [
+                          "Ice Cream",
+                          "Beverages",
+                          "Desserts"
+                        ],
+                        "avgRating": 4.5,
+                        "veg": true,
+                        "parentId": "38827",
+                        "avgRatingString": "4.5",
+                        "totalRatingsString": "5K+",
+                        "sla": {
+                          "deliveryTime": 21,
+                          "lastMileTravel": 1.8,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "1.8 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 01:30:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "FREE ITEM"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-c45798c6-9480-4be0-b854-57ba900c1044"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/baba-falooda-kurla-powai-kurla-mumbai-355806",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "153348",
+                        "name": "Nawab Seekh Corner",
+                        "cloudinaryImageId": "ssbxpgkn1fmjljx8p2k4",
+                        "locality": "Kurla East",
+                        "areaName": "Mumbai",
+                        "costForTwo": "₹550 for two",
+                        "cuisines": [
+                          "North Indian"
+                        ],
+                        "avgRating": 4.3,
+                        "parentId": "144982",
+                        "avgRatingString": "4.3",
+                        "totalRatingsString": "5K+",
+                        "sla": {
+                          "deliveryTime": 42,
+                          "lastMileTravel": 0.3,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "40-45 mins",
+                          "lastMileTravelString": "0.3 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 05:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "10% OFF",
+                          "subHeader": "ABOVE ₹800",
+                          "discountTag": "FLAT DEAL"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-c45798c6-9480-4be0-b854-57ba900c1044"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/nawab-seekh-corner-kurla-east-mumbai-mumbai-153348",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "78036",
+                        "name": "Burger King",
+                        "cloudinaryImageId": "e33e1d3ba7d6b2bb0d45e1001b731fcf",
+                        "locality": "Central Plaza, Kalina",
+                        "areaName": "Santacruz East",
+                        "costForTwo": "₹350 for two",
+                        "cuisines": [
+                          "Burgers",
+                          "American"
+                        ],
+                        "avgRating": 4.3,
+                        "parentId": "166",
+                        "avgRatingString": "4.3",
+                        "totalRatingsString": "10K+",
+                        "sla": {
+                          "deliveryTime": 22,
+                          "lastMileTravel": 1.5,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "1.5 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 05:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "60% OFF",
+                          "subHeader": "UPTO ₹120"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-c45798c6-9480-4be0-b854-57ba900c1044"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/burger-king-central-plaza-kalina-santacruz-east-mumbai-78036",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "119937",
+                        "name": "Royal Falooda",
+                        "cloudinaryImageId": "cf68hnek3qdvb4lodhht",
+                        "locality": "Kurla",
+                        "areaName": "Kurla West",
+                        "costForTwo": "₹400 for two",
+                        "cuisines": [
+                          "Desserts",
+                          "Ice Cream"
+                        ],
+                        "avgRating": 4,
+                        "parentId": "172059",
+                        "avgRatingString": "4.0",
+                        "totalRatingsString": "1K+",
+                        "sla": {
+                          "deliveryTime": 18,
+                          "lastMileTravel": 0.3,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "15-20 mins",
+                          "lastMileTravelString": "0.3 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 04:30:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "20% OFF",
+                          "subHeader": "UPTO ₹50"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-c45798c6-9480-4be0-b854-57ba900c1044"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/royal-falooda-kurla-kurla-west-mumbai-119937",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    }
+                  ],
+                  "theme": "SeoRestaurantListingGridWidget"
                 }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "₹120 OFF",
-                "subHeader": "ABOVE ₹199",
-                "discountTag": "FLAT DEAL"
-            },
-            "orderabilityCommunication": {
-                "title": {},
-                "subTitle": {},
-                "message": {},
-                "customIcon": {}
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
+              }
+            }
+          },
+
+        "pune": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+              "layout": {
+                "columns": 4
+              },
+              "id": "restaurant_grid_listing",
+              "gridElements": {
+                "infoWithStyle": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.FavouriteRestaurantInfoWithStyle",
+                  "restaurants": [
+                    {
+                      "info": {
+                        "id": "651013",
+                        "name": "Pizza Hut",
+                        "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
+                        "locality": "Vimanagar",
+                        "areaName": "Aero Mall",
+                        "costForTwo": "₹350 for two",
+                        "cuisines": [
+                          "Pizzas"
+                        ],
+                        "avgRating": 4.1,
+                        "parentId": "721",
+                        "avgRatingString": "4.1",
+                        "totalRatingsString": "1K+",
+                        "sla": {
+                          "deliveryTime": 21,
+                          "lastMileTravel": 0.1,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "0.1 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 05:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "50% OFF",
+                          "subHeader": "UPTO ₹100"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-743e0e9a-8063-4607-8bc2-6b4a09522aef"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/pizza-hut-vimanagar-aero-mall-pune-651013",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "608346",
+                        "name": "McDonald's",
+                        "cloudinaryImageId": "03501c33ecb3a3105124441e541e6fe4",
+                        "locality": "Lohagaon",
+                        "areaName": "Aero-Mall",
+                        "costForTwo": "₹400 for two",
+                        "cuisines": [
+                          "Burgers",
+                          "Beverages",
+                          "Cafe",
+                          "Desserts"
+                        ],
+                        "avgRating": 4.4,
+                        "parentId": "630",
+                        "avgRatingString": "4.4",
+                        "totalRatingsString": "1K+",
+                        "sla": {
+                          "deliveryTime": 19,
+                          "lastMileTravel": 0.3,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "15-20 mins",
+                          "lastMileTravelString": "0.3 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 02:45:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "40% OFF",
+                          "subHeader": "UPTO ₹80"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-743e0e9a-8063-4607-8bc2-6b4a09522aef"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/mcdonalds-lohagaon-aero-mall-pune-608346",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "686339",
+                        "name": "The Belgian Waffle Co.",
+                        "cloudinaryImageId": "5116a385bac0548e06c33c08350fbf11",
+                        "locality": "SURVEY NUMBER-225",
+                        "areaName": "Viman Nagar",
+                        "costForTwo": "₹200 for two",
+                        "cuisines": [
+                          "Waffle",
+                          "Desserts",
+                          "Ice Cream"
+                        ],
+                        "avgRating": 4.5,
+                        "veg": true,
+                        "parentId": "2233",
+                        "avgRatingString": "4.5",
+                        "totalRatingsString": "500+",
+                        "sla": {
+                          "deliveryTime": 23,
+                          "lastMileTravel": 0.1,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "0.1 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 02:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          "imageBadges": [
+                            {
+                              "imageId": "v1695133679/badges/Pure_Veg111.png",
+                              "description": "pureveg"
+                            }
+                          ]
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              "badgeObject": [
+                                {
+                                  "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                  }
+                                }
+                              ]
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "20% OFF",
+                          "subHeader": "UPTO ₹50"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-743e0e9a-8063-4607-8bc2-6b4a09522aef"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/the-belgian-waffle-co-survey-number-225-viman-nagar-pune-686339",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "677951",
+                        "name": "SA Dosa Cafe",
+                        "cloudinaryImageId": "f58a2e0f3bb68ed0798f3e36c21c7cd0",
+                        "locality": "Sangamwadi",
+                        "areaName": "Viman Nagar",
+                        "costForTwo": "₹300 for two",
+                        "cuisines": [
+                          "South Indian",
+                          "Beverages",
+                          "Snacks",
+                          "Fast Food",
+                          "Pizzas"
+                        ],
+                        "avgRating": 4.2,
+                        "veg": true,
+                        "parentId": "397081",
+                        "avgRatingString": "4.2",
+                        "totalRatingsString": "100+",
+                        "sla": {
+                          "deliveryTime": 23,
+                          "lastMileTravel": 0.1,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "0.1 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-18 00:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "₹75 OFF",
+                          "subHeader": "ABOVE ₹249",
+                          "discountTag": "FLAT DEAL"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-743e0e9a-8063-4607-8bc2-6b4a09522aef"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/sa-dosa-cafe-sangamwadi-viman-nagar-pune-677951",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "642728",
+                        "name": "Subway",
+                        "cloudinaryImageId": "63178e3e64d503a479f2a2048a474552",
+                        "locality": "Mhada Colony",
+                        "areaName": "Aero Mall Viman Nagar",
+                        "costForTwo": "₹350 for two",
+                        "cuisines": [
+                          "Salads",
+                          "Snacks",
+                          "Desserts",
+                          "Beverages"
+                        ],
+                        "avgRating": 4,
+                        "parentId": "2",
+                        "avgRatingString": "4.0",
+                        "totalRatingsString": "1K+",
+                        "sla": {
+                          "deliveryTime": 20,
+                          "lastMileTravel": 0.1,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "15-20 mins",
+                          "lastMileTravelString": "0.1 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 04:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "₹100 OFF",
+                          "subHeader": "ABOVE ₹249",
+                          "discountTag": "FLAT DEAL"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-743e0e9a-8063-4607-8bc2-6b4a09522aef"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/subway-mhada-colony-aero-mall-viman-nagar-pune-642728",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "663343",
+                        "name": "Chicking",
+                        "cloudinaryImageId": "729d9db680f7ce058d22f7adb7f8ca35",
+                        "locality": "Lohegaon",
+                        "areaName": "Viman Nagar",
+                        "costForTwo": "₹399 for two",
+                        "cuisines": [
+                          "Snacks",
+                          "Grill",
+                          "Fast Food",
+                          "American",
+                          "Pizzas",
+                          "Mexican",
+                          "Beverages"
+                        ],
+                        "avgRating": 4.2,
+                        "parentId": "251",
+                        "avgRatingString": "4.2",
+                        "totalRatingsString": "1K+",
+                        "sla": {
+                          "deliveryTime": 22,
+                          "lastMileTravel": 0.1,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "0.1 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 03:15:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "40% OFF",
+                          "subHeader": "UPTO ₹80"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-743e0e9a-8063-4607-8bc2-6b4a09522aef"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/chicking-lohegaon-viman-nagar-pune-663343",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "797243",
+                        "name": "Mad Over Donuts",
+                        "cloudinaryImageId": "0ae2b136fc38dc02491952c6bba2773b",
+                        "locality": "WADGAONSHERI",
+                        "areaName": "Aero Mall",
+                        "costForTwo": "₹200 for two",
+                        "cuisines": [
+                          "Desserts",
+                          "Sweets",
+                          "Bakery"
+                        ],
+                        "avgRating": 4.1,
+                        "veg": true,
+                        "parentId": "611",
+                        "avgRatingString": "4.1",
+                        "totalRatingsString": "50+",
+                        "sla": {
+                          "deliveryTime": 18,
+                          "lastMileTravel": 0.1,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "15-20 mins",
+                          "lastMileTravelString": "0.1 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 06:59:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "50% OFF",
+                          "subHeader": "UPTO ₹100"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "isNewlyOnboarded": true,
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-743e0e9a-8063-4607-8bc2-6b4a09522aef"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/mad-over-donuts-wadgaonsheri-aero-mall-pune-797243",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "650466",
+                        "name": "Wow! Momo",
+                        "cloudinaryImageId": "64fd45fd9f44c1737bc446e470bed666",
+                        "locality": "Aero Mall",
+                        "areaName": "Viman Nagar",
+                        "costForTwo": "₹300 for two",
+                        "cuisines": [
+                          "Tibetan",
+                          "Healthy Food",
+                          "Asian",
+                          "Chinese",
+                          "Snacks",
+                          "Continental",
+                          "Desserts",
+                          "Beverages"
+                        ],
+                        "avgRating": 4.1,
+                        "parentId": "1776",
+                        "avgRatingString": "4.1",
+                        "totalRatingsString": "100+",
+                        "sla": {
+                          "deliveryTime": 24,
+                          "lastMileTravel": 0.1,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "0.1 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 02:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "60% OFF",
+                          "subHeader": "UPTO ₹120"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-743e0e9a-8063-4607-8bc2-6b4a09522aef"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/wow-momo-aero-mall-viman-nagar-pune-650466",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "650465",
+                        "name": "Wow! China",
+                        "cloudinaryImageId": "95982cfa57cb3b7e504f2015c375fd55",
+                        "locality": "Aero Mall",
+                        "areaName": "Viman Nagar",
+                        "costForTwo": "₹300 for two",
+                        "cuisines": [
+                          "Tibetan",
+                          "Chinese",
+                          "Asian",
+                          "Snacks",
+                          "Continental",
+                          "Desserts",
+                          "Beverages"
+                        ],
+                        "avgRating": 4,
+                        "parentId": "226836",
+                        "avgRatingString": "4.0",
+                        "totalRatingsString": "100+",
+                        "sla": {
+                          "deliveryTime": 25,
+                          "lastMileTravel": 0.1,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "0.1 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 03:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "60% OFF",
+                          "subHeader": "UPTO ₹120"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-743e0e9a-8063-4607-8bc2-6b4a09522aef"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/wow-china-aero-mall-viman-nagar-pune-650465",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    }
+                  ],
+                  "theme": "SeoRestaurantListingGridWidget"
                 }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {
-            "context": "seo-data-a0a96f0e-3f52-4979-91ef-fc63627e12e7"
-        },
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/dominos-pizza-somwar-peth-rasta-peth-pune-456986",
-            "text": "RESTAURANT_MENU",
-            "type": "WEBLINK"
-        },
-        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-        "info": {
-            "id": "243625",
-            "name": "KFC",
-            "cloudinaryImageId": "f01666ac73626461d7455d9c24005cd4",
-            "locality": "Deccan Gymkhana",
-            "areaName": "Deccan Gymkhana",
-            "costForTwo": "₹400 for two",
-            "cuisines": [
-                "Burgers",
-                "Biryani",
-                "American",
-                "Snacks",
-                "Fast Food"
-            ],
-            "avgRating": 4.2,
-            "parentId": "547",
-            "avgRatingString": "4.2",
-            "totalRatingsString": "1K+",
-            "sla": {
-                "deliveryTime": 17,
-                "lastMileTravel": 2.2,
-                "serviceability": "SERVICEABLE",
-                "slaString": "17 mins",
-                "lastMileTravelString": "2.2 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-01-05 02:00:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
+              }
+            }
+          },
+
+        "bengaluru": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+              "layout": {
+                "columns": 4
+              },
+              "id": "restaurant_grid_listing",
+              "gridElements": {
+                "infoWithStyle": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.FavouriteRestaurantInfoWithStyle",
+                  "restaurants": [
+                    {
+                      "info": {
+                        "id": "94703",
+                        "name": "Sri Punjabi Dhaba",
+                        "cloudinaryImageId": "i53hrycmcn2oehrojag0",
+                        "locality": "BTM Layout",
+                        "areaName": "BTM Layout",
+                        "costForTwo": "₹300 for two",
+                        "cuisines": [
+                          "North Indian",
+                          "Biryani",
+                          "Chinese",
+                          "Kebabs"
+                        ],
+                        "avgRating": 3.2,
+                        "parentId": "21426",
+                        "avgRatingString": "3.2",
+                        "totalRatingsString": "10K+",
+                        "sla": {
+                          "deliveryTime": 39,
+                          "lastMileTravel": 7.5,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "35-40 mins",
+                          "lastMileTravelString": "7.5 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 02:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "60% OFF",
+                          "discountTag": "FLAT DEAL"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-982a7497-a0f9-4fff-86f0-54cecbb2fe78"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/sri-punjabi-dhaba-btm-layout-bangalore-94703",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "495055",
+                        "name": "Afghani Tandoori Hub",
+                        "cloudinaryImageId": "s2guefjyf6zplthuzkzg",
+                        "locality": "BTM Layout",
+                        "areaName": "Btm Layout",
+                        "costForTwo": "₹250 for two",
+                        "cuisines": [
+                          "Biryani",
+                          "Chinese",
+                          "North Indian",
+                          "Snacks"
+                        ],
+                        "avgRating": 3.7,
+                        "parentId": "472116",
+                        "avgRatingString": "3.7",
+                        "totalRatingsString": "1K+",
+                        "sla": {
+                          "deliveryTime": 37,
+                          "lastMileTravel": 7.5,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "35-40 mins",
+                          "lastMileTravelString": "7.5 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 23:59:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "₹100 OFF",
+                          "subHeader": "ABOVE ₹199",
+                          "discountTag": "FLAT DEAL"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-982a7497-a0f9-4fff-86f0-54cecbb2fe78"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/afghani-tandoori-hub-btm-layout-bangalore-495055",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "496423",
+                        "name": "Dum Biryani Hub",
+                        "cloudinaryImageId": "dzfnv4xnrfnchnmnffyd",
+                        "locality": "BTM Layout",
+                        "areaName": "Btm Layout",
+                        "costForTwo": "₹450 for two",
+                        "cuisines": [
+                          "Biryani",
+                          "North Indian",
+                          "Chinese",
+                          "Desserts",
+                          "Beverages"
+                        ],
+                        "avgRating": 3.6,
+                        "parentId": "297555",
+                        "avgRatingString": "3.6",
+                        "totalRatingsString": "1K+",
+                        "sla": {
+                          "deliveryTime": 36,
+                          "lastMileTravel": 7.5,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "35-40 mins",
+                          "lastMileTravelString": "7.5 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 23:59:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "₹100 OFF",
+                          "subHeader": "ABOVE ₹199",
+                          "discountTag": "FLAT DEAL"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-982a7497-a0f9-4fff-86f0-54cecbb2fe78"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/dum-biryani-hub-btm-layout-bangalore-496423",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "170539",
+                        "name": "Donne Biryani Adda",
+                        "cloudinaryImageId": "wujms9lt0bsabrid1dwg",
+                        "locality": "Appareddy Palya",
+                        "areaName": "Indiranagar",
+                        "costForTwo": "₹200 for two",
+                        "cuisines": [
+                          "Biryani",
+                          "South Indian",
+                          "Desserts",
+                          "Beverages"
+                        ],
+                        "avgRating": 3.7,
+                        "parentId": "20115",
+                        "avgRatingString": "3.7",
+                        "totalRatingsString": "1K+",
+                        "sla": {
+                          "deliveryTime": 33,
+                          "lastMileTravel": 6.2,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "30-35 mins",
+                          "lastMileTravelString": "6.2 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 03:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "₹100 OFF",
+                          "subHeader": "ABOVE ₹199",
+                          "discountTag": "FLAT DEAL"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-982a7497-a0f9-4fff-86f0-54cecbb2fe78"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/donne-biryani-adda-appareddy-palya-indiranagar-bangalore-170539",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "435207",
+                        "name": "Donne Biriyani Naty Style Hotel",
+                        "cloudinaryImageId": "elc4ygfo5uuamvhkvean",
+                        "locality": "80 Feet Main Road",
+                        "areaName": "Rt Nagar",
+                        "costForTwo": "₹200 for two",
+                        "cuisines": [
+                          "Indian",
+                          "South Indian"
+                        ],
+                        "avgRating": 4.1,
+                        "parentId": "262743",
+                        "avgRatingString": "4.1",
+                        "totalRatingsString": "500+",
+                        "sla": {
+                          "deliveryTime": 31,
+                          "lastMileTravel": 6.8,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "30-35 mins",
+                          "lastMileTravelString": "6.8 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 07:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "₹100 OFF",
+                          "subHeader": "ABOVE ₹199",
+                          "discountTag": "FLAT DEAL"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-982a7497-a0f9-4fff-86f0-54cecbb2fe78"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/donne-biriyani-naty-style-hotel-80-feet-main-road-rt-nagar-bangalore-435207",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "63957",
+                        "name": "Madeena Hotel",
+                        "cloudinaryImageId": "yc0asfa2j9elggstyjg4",
+                        "locality": "Koramangala",
+                        "areaName": "Koramangala",
+                        "costForTwo": "₹250 for two",
+                        "cuisines": [
+                          "Biryani",
+                          "Mughlai",
+                          "Indian",
+                          "Beverages"
+                        ],
+                        "avgRating": 4.3,
+                        "parentId": "12517",
+                        "avgRatingString": "4.3",
+                        "totalRatingsString": "10K+",
+                        "sla": {
+                          "deliveryTime": 38,
+                          "lastMileTravel": 6.5,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "35-40 mins",
+                          "lastMileTravelString": "6.5 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 04:01:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "20% OFF",
+                          "subHeader": "UPTO ₹50"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-982a7497-a0f9-4fff-86f0-54cecbb2fe78"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/madeena-hotel-koramangala-bangalore-63957",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "415042",
+                        "name": "Royal Biryani Kitchen",
+                        "cloudinaryImageId": "rze3ha5v1jced9951x0b",
+                        "locality": "1st  Stage",
+                        "areaName": "BTM Layout",
+                        "costForTwo": "₹250 for two",
+                        "cuisines": [
+                          "Biryani",
+                          "Chinese",
+                          "Tandoor",
+                          "Snacks",
+                          "Mughlai"
+                        ],
+                        "avgRating": 3.4,
+                        "parentId": "171864",
+                        "avgRatingString": "3.4",
+                        "totalRatingsString": "500+",
+                        "sla": {
+                          "deliveryTime": 34,
+                          "lastMileTravel": 7.5,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "30-35 mins",
+                          "lastMileTravelString": "7.5 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 23:59:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "40% OFF",
+                          "subHeader": "UPTO ₹80"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-982a7497-a0f9-4fff-86f0-54cecbb2fe78"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/royal-biryani-kitchen-1st-stage-btm-layout-bangalore-415042",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "334501",
+                        "name": "Le MoMo",
+                        "cloudinaryImageId": "zjbpim0nfx0l1ffx8lrn",
+                        "locality": "KGE Layout",
+                        "areaName": "Sahakara Nagar",
+                        "costForTwo": "₹150 for two",
+                        "cuisines": [
+                          "Chinese"
+                        ],
+                        "avgRating": 4,
+                        "parentId": "124527",
+                        "avgRatingString": "4.0",
+                        "totalRatingsString": "1K+",
+                        "sla": {
+                          "deliveryTime": 42,
+                          "lastMileTravel": 9.1,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "40-45 mins",
+                          "lastMileTravelString": "9.1 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 05:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "₹50 OFF",
+                          "subHeader": "ABOVE ₹199",
+                          "discountTag": "FLAT DEAL"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-982a7497-a0f9-4fff-86f0-54cecbb2fe78"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/le-momo-kge-layout-sahakara-nagar-bangalore-334501",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "48581",
+                        "name": "Rotti Walla",
+                        "cloudinaryImageId": "kvlaq1ugkoozqr741zrv",
+                        "locality": "Appareddy Palya",
+                        "areaName": "Indiranagar",
+                        "costForTwo": "₹200 for two",
+                        "cuisines": [
+                          "North Indian",
+                          "Chinese",
+                          "Snacks",
+                          "Beverages",
+                          "Tandoor",
+                          "South Indian"
+                        ],
+                        "avgRating": 4.1,
+                        "parentId": "9541",
+                        "avgRatingString": "4.1",
+                        "totalRatingsString": "10K+",
+                        "sla": {
+                          "deliveryTime": 35,
+                          "lastMileTravel": 6.2,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "35-40 mins",
+                          "lastMileTravelString": "6.2 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 03:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "₹100 OFF",
+                          "subHeader": "ABOVE ₹199",
+                          "discountTag": "FLAT DEAL"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-982a7497-a0f9-4fff-86f0-54cecbb2fe78"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/rotti-walla-appareddy-palya-indiranagar-bangalore-48581",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    }
+                  ],
+                  "theme": "SeoRestaurantListingGridWidget"
                 }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "₹120 OFF",
-                "subHeader": "ABOVE ₹199",
-                "discountTag": "FLAT DEAL"
-            },
-            "orderabilityCommunication": {
-                "title": {},
-                "subTitle": {},
-                "message": {},
-                "customIcon": {}
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
+              }
+            }
+          },
+        
+          "noida": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+              "layout": {
+                "columns": 4
+              },
+              "id": "restaurant_grid_listing",
+              "gridElements": {
+                "infoWithStyle": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.FavouriteRestaurantInfoWithStyle",
+                  "restaurants": [
+                    {
+                      "info": {
+                        "id": "413001",
+                        "name": "Biryani Blues",
+                        "cloudinaryImageId": "97377e54937c079fe269d744aa66274a",
+                        "areaName": "Sector 110",
+                        "costForTwo": "₹400 for two",
+                        "cuisines": [
+                          "Biryani",
+                          "Hyderabadi",
+                          "Lucknowi",
+                          "Kebabs",
+                          "Desserts",
+                          "Beverages"
+                        ],
+                        "avgRating": 4.4,
+                        "parentId": "13813",
+                        "avgRatingString": "4.4",
+                        "totalRatingsString": "1K+",
+                        "sla": {
+                          "deliveryTime": 23,
+                          "lastMileTravel": 1,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "1.0 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 04:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          "textExtendedBadges": [
+                            {
+                              "iconId": "guiltfree/GF_Logo_android_3x",
+                              "shortDescription": "options available",
+                              "fontColor": "#7E808C"
+                            }
+                          ]
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              "badgeObject": [
+                                {
+                                  "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "₹125 OFF",
+                          "subHeader": "ABOVE ₹249",
+                          "discountTag": "FLAT DEAL",
+                          "discountCalloutInfo": {
+                            "message": "Free Delivery",
+                            "logoCtx": {
+                              "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+                            }
+                          }
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-2d65fcac-335e-49eb-bf80-7b8602c060c4"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/biryani-blues-sector-110-noida-1-413001",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "594685",
+                        "name": "Chinese Wok",
+                        "cloudinaryImageId": "e0839ff574213e6f35b3899ebf1fc597",
+                        "locality": "Gautam Buddha Nagar",
+                        "areaName": "Sector 110",
+                        "costForTwo": "₹250 for two",
+                        "cuisines": [
+                          "Chinese",
+                          "Asian",
+                          "Tibetan",
+                          "Desserts"
+                        ],
+                        "avgRating": 4,
+                        "parentId": "61955",
+                        "avgRatingString": "4.0",
+                        "totalRatingsString": "500+",
+                        "sla": {
+                          "deliveryTime": 20,
+                          "lastMileTravel": 0.9,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "0.9 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 01:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "50% OFF",
+                          "subHeader": "UPTO ₹100"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-2d65fcac-335e-49eb-bf80-7b8602c060c4"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/chinese-wok-gautam-buddha-nagar-sector-110-noida-1-594685",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "594707",
+                        "name": "The Momo Co.",
+                        "cloudinaryImageId": "9668a5819fcba35364dcff30d5f5cfbb",
+                        "locality": "Gautam Buddha Nagar",
+                        "areaName": "Sector 110",
+                        "costForTwo": "₹250 for two",
+                        "cuisines": [
+                          "Chinese",
+                          "Asian",
+                          "Tibetan",
+                          "Desserts"
+                        ],
+                        "avgRating": 3.8,
+                        "parentId": "11442",
+                        "avgRatingString": "3.8",
+                        "totalRatingsString": "100+",
+                        "sla": {
+                          "deliveryTime": 26,
+                          "lastMileTravel": 0.9,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "25-30 mins",
+                          "lastMileTravelString": "0.9 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 01:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "60% OFF",
+                          "subHeader": "UPTO ₹120"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-2d65fcac-335e-49eb-bf80-7b8602c060c4"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/the-momo-co-gautam-buddha-nagar-sector-110-noida-1-594707",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "594715",
+                        "name": "Big Bowl",
+                        "cloudinaryImageId": "c99751d54e4e1847186c62b3309c1327",
+                        "locality": "Block- A",
+                        "areaName": "Sector 110",
+                        "costForTwo": "₹250 for two",
+                        "cuisines": [
+                          "North Indian",
+                          "Chinese",
+                          "Tibetan",
+                          "Desserts"
+                        ],
+                        "avgRating": 4.2,
+                        "parentId": "434792",
+                        "avgRatingString": "4.2",
+                        "totalRatingsString": "500+",
+                        "sla": {
+                          "deliveryTime": 23,
+                          "lastMileTravel": 0.9,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "0.9 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 01:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "ITEMS",
+                          "subHeader": "AT ₹169"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-2d65fcac-335e-49eb-bf80-7b8602c060c4"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/big-bowl-block-a-sector-110-noida-1-594715",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "807416",
+                        "name": "Desi Swaad",
+                        "cloudinaryImageId": "af8349c33cc194911e3870097f79b0d5",
+                        "locality": "Gautam Buddha Nagar",
+                        "areaName": "Noida Expressway",
+                        "costForTwo": "₹200 for two",
+                        "cuisines": [
+                          "Indian",
+                          "Snacks"
+                        ],
+                        "avgRating": 4.4,
+                        "parentId": "71254",
+                        "avgRatingString": "4.4",
+                        "totalRatingsString": "10+",
+                        "sla": {
+                          "deliveryTime": 39,
+                          "lastMileTravel": 1.3,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "35-40 mins",
+                          "lastMileTravelString": "1.3 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-18 00:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "20% OFF",
+                          "subHeader": "UPTO ₹50"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "isNewlyOnboarded": true,
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-2d65fcac-335e-49eb-bf80-7b8602c060c4"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/desi-swaad-gautam-buddha-nagar-noida-expressway-noida-1-807416",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "177495",
+                        "name": "La Pino'z Pizza",
+                        "cloudinaryImageId": "ugemttaiukyqfhxkfs9i",
+                        "locality": "Pathways School Road",
+                        "areaName": "Hajipur",
+                        "costForTwo": "₹300 for two",
+                        "cuisines": [
+                          "Pizzas",
+                          "Pastas",
+                          "Italian",
+                          "Desserts",
+                          "Beverages"
+                        ],
+                        "avgRating": 4,
+                        "parentId": "4961",
+                        "avgRatingString": "4.0",
+                        "totalRatingsString": "10K+",
+                        "sla": {
+                          "deliveryTime": 28,
+                          "lastMileTravel": 4.3,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "25-30 mins",
+                          "lastMileTravelString": "4.3 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 06:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "60% OFF",
+                          "subHeader": "UPTO ₹120"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-2d65fcac-335e-49eb-bf80-7b8602c060c4"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/la-pinoz-pizza-pathways-school-road-hajipur-noida-1-177495",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "779162",
+                        "name": "Aaradhya Kitchen",
+                        "cloudinaryImageId": "ee4131fd2ba063b8fe1b815586d1fe83",
+                        "locality": "Gautam Buddha Nagar",
+                        "areaName": "Noida Expressway",
+                        "costForTwo": "₹250 for two",
+                        "cuisines": [
+                          "Indian"
+                        ],
+                        "avgRating": 4.3,
+                        "veg": true,
+                        "parentId": "26009",
+                        "avgRatingString": "4.3",
+                        "totalRatingsString": "20+",
+                        "sla": {
+                          "deliveryTime": 34,
+                          "lastMileTravel": 1.3,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "30-35 mins",
+                          "lastMileTravelString": "1.3 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-18 00:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "20% OFF",
+                          "subHeader": "UPTO ₹50"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "isNewlyOnboarded": true,
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-2d65fcac-335e-49eb-bf80-7b8602c060c4"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/aaradhya-kitchen-gautam-buddha-nagar-noida-expressway-noida-1-779162",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "203638",
+                        "name": "Sweet Truth - Cake and Desserts",
+                        "cloudinaryImageId": "81cf6bfe2760a45a0caf2e28716ca4d7",
+                        "locality": "B Block",
+                        "areaName": "Sector 83",
+                        "costForTwo": "₹450 for two",
+                        "cuisines": [
+                          "Snacks",
+                          "Bakery",
+                          "Desserts",
+                          "Beverages"
+                        ],
+                        "avgRating": 4.2,
+                        "parentId": "4444",
+                        "avgRatingString": "4.2",
+                        "totalRatingsString": "500+",
+                        "sla": {
+                          "deliveryTime": 23,
+                          "lastMileTravel": 1.7,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "1.7 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 03:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "60% OFF",
+                          "subHeader": "UPTO ₹110"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-2d65fcac-335e-49eb-bf80-7b8602c060c4"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/sweet-truth-cake-and-desserts-b-block-sector-83-noida-1-203638",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "203624",
+                        "name": "Behrouz Biryani",
+                        "cloudinaryImageId": "1a8dfa8b2a73ddf7c6193465ab24c898",
+                        "locality": "B Block",
+                        "areaName": "Sector 83",
+                        "costForTwo": "₹500 for two",
+                        "cuisines": [
+                          "Biryani",
+                          "North Indian",
+                          "Kebabs",
+                          "Mughlai",
+                          "Beverages",
+                          "Desserts"
+                        ],
+                        "avgRating": 4.3,
+                        "parentId": "1803",
+                        "avgRatingString": "4.3",
+                        "totalRatingsString": "1K+",
+                        "sla": {
+                          "deliveryTime": 27,
+                          "lastMileTravel": 1.7,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "25-30 mins",
+                          "lastMileTravelString": "1.7 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-03-12 03:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          "imageBadges": [
+                            {
+                              "imageId": "newg.png",
+                              "description": "Gourmet"
+                            }
+                          ]
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              "badgeObject": [
+                                {
+                                  "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                  }
+                                }
+                              ]
+                            },
+                            "textBased": {
+                              
+                            },
+                            "textExtendedBadges": {
+                              
+                            }
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "₹125 OFF",
+                          "subHeader": "ABOVE ₹199",
+                          "discountTag": "FLAT DEAL"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {
+                            
+                          },
+                          "subTitle": {
+                            
+                          },
+                          "message": {
+                            
+                          },
+                          "customIcon": {
+                            
+                          }
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {
+                              
+                            },
+                            "video": {
+                              
+                            }
+                          }
+                        },
+                        "reviewsSummary": {
+                          
+                        },
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {
+                          
+                        }
+                      },
+                      "analytics": {
+                        "context": "seo-data-2d65fcac-335e-49eb-bf80-7b8602c060c4"
+                      },
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/behrouz-biryani-b-block-sector-83-noida-1-203624",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    }
+                  ],
+                  "theme": "SeoRestaurantListingGridWidget"
                 }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {
-            "context": "seo-data-a0a96f0e-3f52-4979-91ef-fc63627e12e7"
-        },
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/kfc-deccan-gymkhana-pune-243625",
-            "text": "RESTAURANT_MENU",
-            "type": "WEBLINK"
-        },
-        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-        "info": {
-            "id": "506982",
-            "name": "McDonald's",
-            "cloudinaryImageId": "bb7ae131544c7d37e10fc5faf76f09d6",
-            "locality": "Narayan Peth",
-            "areaName": "Shaniwar Peth",
-            "costForTwo": "₹400 for two",
-            "cuisines": [
-                "Burgers",
-                "Beverages",
-                "Cafe",
-                "Desserts"
-            ],
-            "avgRating": 4.4,
-            "parentId": "630",
-            "avgRatingString": "4.4",
-            "totalRatingsString": "1K+",
-            "sla": {
-                "deliveryTime": 17,
-                "lastMileTravel": 1.3,
-                "serviceability": "SERVICEABLE",
-                "slaString": "17 mins",
-                "lastMileTravelString": "1.3 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-01-04 23:45:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "₹120 OFF",
-                "subHeader": "ABOVE ₹199",
-                "discountTag": "FLAT DEAL"
-            },
-            "orderabilityCommunication": {
-                "title": {},
-                "subTitle": {},
-                "message": {},
-                "customIcon": {}
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {
-            "context": "seo-data-a0a96f0e-3f52-4979-91ef-fc63627e12e7"
-        },
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/mcdonalds-narayan-peth-shaniwar-peth-pune-506982",
-            "text": "RESTAURANT_MENU",
-            "type": "WEBLINK"
-        },
-        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-        "info": {
-            "id": "21001",
-            "name": "Pizza Hut",
-            "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
-            "locality": "F.C. Road",
-            "areaName": "Shivajinagar",
-            "costForTwo": "₹350 for two",
-            "cuisines": [
-                "Pizzas"
-            ],
-            "avgRating": 4,
-            "parentId": "721",
-            "avgRatingString": "4.0",
-            "totalRatingsString": "10K+",
-            "sla": {
-                "deliveryTime": 22,
-                "lastMileTravel": 2,
-                "serviceability": "SERVICEABLE",
-                "slaString": "22 mins",
-                "lastMileTravelString": "2.0 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-01-05 02:00:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "₹120 OFF",
-                "subHeader": "ABOVE ₹199",
-                "discountTag": "FLAT DEAL"
-            },
-            "orderabilityCommunication": {
-                "title": {},
-                "subTitle": {},
-                "message": {},
-                "customIcon": {}
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {
-            "context": "seo-data-a0a96f0e-3f52-4979-91ef-fc63627e12e7"
-        },
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/pizza-hut-f-c-road-shivajinagar-pune-21001",
-            "text": "RESTAURANT_MENU",
-            "type": "WEBLINK"
-        },
-        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-        "info": {
-            "id": "768373",
-            "name": "Samudra Veg",
-            "cloudinaryImageId": "e18e58b3bbd76ee7e61bd8b41f4c3d3e",
-            "locality": "Sarasbaug",
-            "areaName": "Swargate",
-            "costForTwo": "₹500 for two",
-            "cuisines": [
-                "Indian"
-            ],
-            "avgRating": 4.4,
-            "veg": true,
-            "parentId": "176775",
-            "avgRatingString": "4.4",
-            "totalRatingsString": "50+",
-            "sla": {
-                "deliveryTime": 23,
-                "lastMileTravel": 2.4,
-                "serviceability": "SERVICEABLE",
-                "slaString": "23 mins",
-                "lastMileTravelString": "2.4 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-01-04 23:00:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "₹120 OFF",
-                "subHeader": "ABOVE ₹199",
-                "discountTag": "FLAT DEAL"
-            },
-            "orderabilityCommunication": {
-                "title": {},
-                "subTitle": {},
-                "message": {},
-                "customIcon": {}
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "isNewlyOnboarded": true,
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {
-            "context": "seo-data-a0a96f0e-3f52-4979-91ef-fc63627e12e7"
-        },
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/samudra-veg-sarasbaug-swargate-pune-768373",
-            "text": "RESTAURANT_MENU",
-            "type": "WEBLINK"
-        },
-        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-        "info": {
-            "id": "628118",
-            "name": "Hotel Dawath",
-            "cloudinaryImageId": "hpooldauljohuiap84a8",
-            "locality": "Narveer Tanaji Wadi",
-            "areaName": "Shivajinagar",
-            "costForTwo": "₹200 for two",
-            "cuisines": [
-                "Indian",
-                "Chinese",
-                "Beverages"
-            ],
-            "avgRating": 3,
-            "parentId": "98713",
-            "avgRatingString": "3.0",
-            "totalRatingsString": "50+",
-            "sla": {
-                "deliveryTime": 22,
-                "lastMileTravel": 1.6,
-                "serviceability": "SERVICEABLE",
-                "slaString": "22 mins",
-                "lastMileTravelString": "1.6 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-01-04 23:30:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "₹120 OFF",
-                "subHeader": "ABOVE ₹199",
-                "discountTag": "FLAT DEAL"
-            },
-            "orderabilityCommunication": {
-                "title": {},
-                "subTitle": {},
-                "message": {},
-                "customIcon": {}
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {
-            "context": "seo-data-a0a96f0e-3f52-4979-91ef-fc63627e12e7"
-        },
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/hotel-dawath-narveer-tanaji-wadi-shivajinagar-pune-628118",
-            "text": "RESTAURANT_MENU",
-            "type": "WEBLINK"
-        },
-        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-        "info": {
-            "id": "485330",
-            "name": "La Pino'z Pizza",
-            "cloudinaryImageId": "kkhxj0otcsgziyt7vnl5",
-            "locality": "F.C. Road",
-            "areaName": "F.C. Road",
-            "costForTwo": "₹400 for two",
-            "cuisines": [
-                "Pizzas",
-                "Pastas",
-                "Italian",
-                "Desserts",
-                "Beverages"
-            ],
-            "avgRating": 3.8,
-            "parentId": "4961",
-            "avgRatingString": "3.8",
-            "totalRatingsString": "1K+",
-            "sla": {
-                "deliveryTime": 19,
-                "lastMileTravel": 2.2,
-                "serviceability": "SERVICEABLE",
-                "slaString": "19 mins",
-                "lastMileTravelString": "2.2 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-01-05 02:00:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "₹120 OFF",
-                "subHeader": "ABOVE ₹199",
-                "discountTag": "FLAT DEAL"
-            },
-            "orderabilityCommunication": {
-                "title": {},
-                "subTitle": {},
-                "message": {},
-                "customIcon": {}
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {
-            "context": "seo-data-a0a96f0e-3f52-4979-91ef-fc63627e12e7"
-        },
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/la-pinoz-pizza-f-c-road-pune-485330",
-            "text": "RESTAURANT_MENU",
-            "type": "WEBLINK"
-        },
-        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-        "info": {
-            "id": "20058",
-            "name": "SP's Biryani House",
-            "cloudinaryImageId": "b2jeywla2n5b8h25ey1p",
-            "locality": "Sadashiv Peth",
-            "areaName": "Sadashiv Peth",
-            "costForTwo": "₹900 for two",
-            "cuisines": [
-                "Biryani",
-                "North Indian",
-                "Indian",
-                "Maharashtrian"
-            ],
-            "avgRating": 4.3,
-            "parentId": "192891",
-            "avgRatingString": "4.3",
-            "totalRatingsString": "10K+",
-            "sla": {
-                "deliveryTime": 23,
-                "lastMileTravel": 1.9,
-                "serviceability": "SERVICEABLE",
-                "slaString": "23 mins",
-                "lastMileTravelString": "1.9 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-01-04 22:55:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "₹120 OFF",
-                "subHeader": "ABOVE ₹199",
-                "discountTag": "FLAT DEAL"
-            },
-            "orderabilityCommunication": {
-                "title": {},
-                "subTitle": {},
-                "message": {},
-                "customIcon": {}
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {
-            "context": "seo-data-a0a96f0e-3f52-4979-91ef-fc63627e12e7"
-        },
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/sps-biryani-house-sadashiv-peth-pune-20058",
-            "text": "RESTAURANT_MENU",
-            "type": "WEBLINK"
-        },
-        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-        "info": {
-            "id": "34715",
-            "name": "Kok Pa Chinese",
-            "cloudinaryImageId": "gvvdbegf1guwzww6rsbh",
-            "locality": "FC Road",
-            "areaName": "Shivaji Nagar",
-            "costForTwo": "₹250 for two",
-            "cuisines": [
-                "Chinese",
-                "Asian"
-            ],
-            "avgRating": 4.2,
-            "parentId": "18863",
-            "avgRatingString": "4.2",
-            "totalRatingsString": "5K+",
-            "sla": {
-                "deliveryTime": 17,
-                "lastMileTravel": 2,
-                "serviceability": "SERVICEABLE",
-                "slaString": "17 mins",
-                "lastMileTravelString": "2.0 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-01-04 23:55:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "₹120 OFF",
-                "subHeader": "ABOVE ₹199",
-                "discountTag": "FLAT DEAL"
-            },
-            "orderabilityCommunication": {
-                "title": {},
-                "subTitle": {},
-                "message": {},
-                "customIcon": {}
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {
-            "context": "seo-data-a0a96f0e-3f52-4979-91ef-fc63627e12e7"
-        },
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/kok-pa-chinese-fc-road-shivaji-nagar-pune-34715",
-            "text": "RESTAURANT_MENU",
-            "type": "WEBLINK"
-        },
-        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+              }
+            }
+          }
+        }
     }
-]
+    
+}
+ 
